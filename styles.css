@@ -1,0 +1,40 @@
+body{
+	background-color: #000;
+	word-wrap: normal;
+}
+h1{
+	margin-left: 4vw;
+	font-size: 6vw;
+}
+
+button{
+	width: 26vw;
+	height: 8.5vw;
+	margin: 3vw;
+	font: 2.5vw arial, sans-serif;
+	word-wrap: inherit;
+	padding: 1%;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #606;
+	background-color: #c3f;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+	border-radius: 10px;
+	transition: background-color 0.35s ease;
+	-webkit-tap-highlight-color: transparent;
+	outline: 0;
+}
+button:hover{
+	background-color: #860086;
+}
+button:active{
+	background: #eee;
+}
+span{
+	margin-top: 8px;
+	color: #fff;
+	font-size: 2vw;
+}
